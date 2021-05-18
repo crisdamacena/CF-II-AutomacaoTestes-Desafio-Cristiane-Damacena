@@ -1,0 +1,23 @@
+{
+  "name": "automacoes-testes",
+  "version": "1.0.0",
+  "description": "Semana 5: 06/04 | Automação de testes",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "npm test -- --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olabi-PretaLab/CF-II-AutomacaoTestes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olabi-PretaLab/CF-II-AutomacaoTestes/issues"
+  },
+  "homepage": "https://github.com/Olabi-PretaLab/CF-II-AutomacaoTestes#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}

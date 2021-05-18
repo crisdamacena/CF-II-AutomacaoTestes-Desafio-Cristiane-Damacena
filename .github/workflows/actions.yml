@@ -1,0 +1,27 @@
+name: automacao-testes-calculadora
+description: 'Desafio automação de testes - Calculadoras'
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      
+      - name: Checar Repositorio
+        uses: actions/checkout@v2
+
+      - name: Configurar Node
+        uses: actions/setup-node@v1
+        with: 
+          node-version: 12.x
+
+      - name: Instalar Dependencias
+        run: npm install
+
+      - name: Iniciar Test
+        run: npm test
+
+      - name: Rodar Corverage
+        run: npm run coverage
