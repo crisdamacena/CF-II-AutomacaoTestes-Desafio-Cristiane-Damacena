@@ -1,5 +1,4 @@
 name: automacao-testes-calculadora
-description: 'Desafio automação de testes - Calculadoras'
 
 on: [push]
 
